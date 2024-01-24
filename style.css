@@ -57,6 +57,10 @@ h1 span {
   font-weight: 700;
 }
 
+li {
+  list-style: none;
+}
+
 .btn {
   display: block;
   text-decoration: none;
@@ -70,10 +74,6 @@ h1 span {
   color: var(--clr-neutral-900);
   align-items: last baseline;
   margin-right: auto;
-}
-
-.hero {
-  padding: 6.5em;
 }
 
 .header-container {
@@ -95,4 +95,31 @@ h1 span {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+}
+
+
+.mastering {
+  background-color: var(--clr-neutral-900);
+}
+
+.container {
+  padding: 6.5em 7.25em;
+}
+
+ul {
+  display: flex;
+  gap: 1.5em;
+}
+
+.mastering .container h2 {
+  color: var(--clr-accent-400);
+}
+
+.mastering .container ul {
+  color: var(--clr-neutral-100);
+}
+
+.mastering .container li img {
+  width: 255px;
+  height: 150px;
 }
