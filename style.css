@@ -126,7 +126,7 @@ ul {
   height: 150px;
 }
 
-.join-container .container ul {
+.join-container .container ul li {
   position: relative;
 }
 
