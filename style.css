@@ -59,6 +59,7 @@ h1 span {
 
 li {
   list-style: none;
+  line-height: 175%;
 }
 
 .btn {
@@ -123,4 +124,19 @@ ul {
 .mastering .container li img {
   width: 255px;
   height: 150px;
+}
+
+.join-container .container ul {
+  position: relative;
+}
+
+.join-container .container ul li:before {
+  content: '';
+  background-color: var(--clr-accent-400);
+  width: 67px;
+  height: 67px;
+  top: -0.5em;
+  left: -0.5em;
+  position: absolute;
+  z-index: -1;
 }
