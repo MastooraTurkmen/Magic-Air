@@ -34,7 +34,7 @@ p {
 }
 
 /* Utility classes */
-.flow-content > * + * {
+.flow-content>*+* {
   margin-top: 1.25rem;
 }
 
@@ -50,6 +50,7 @@ body {
 
 h1 {
   font-weight: 400;
+  font-size: 1.8em;
 }
 
 h1 span {
@@ -67,4 +68,20 @@ h1 span {
   padding: 0.75em 1.5em;
   background-color: var(--clr-accent-400);
   color: var(--clr-neutral-900);
+  align-items: last baseline;
+}
+
+.hero {
+  padding: 6.5em;
+}
+
+.header-container {
+  display: flex;
+  gap: 2.95em;
+}
+
+.img img {
+  width: 495px;
+  height: 345px;
+  object-fit: cover;
 }
