@@ -58,7 +58,7 @@ h1 span {
 }
 
 .btn {
-  display: inline-block;
+  display: block;
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
@@ -69,6 +69,7 @@ h1 span {
   background-color: var(--clr-accent-400);
   color: var(--clr-neutral-900);
   align-items: last baseline;
+  margin-right: auto;
 }
 
 .hero {
@@ -77,11 +78,21 @@ h1 span {
 
 .header-container {
   display: flex;
-  gap: 2.95em;
+  gap: 3em;
 }
 
 .img img {
   width: 495px;
   height: 345px;
   object-fit: cover;
+}
+
+.img {
+  align-items: center;
+}
+
+.flow-content {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
