@@ -109,6 +109,7 @@ li {
 ul {
   display: flex;
   gap: 1.5em;
+  padding-left: 0;
 }
 
 .mastering .container h2 {
