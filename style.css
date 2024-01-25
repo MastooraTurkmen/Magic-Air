@@ -120,9 +120,12 @@ body {
 
 h1 {
   font-weight: 400;
-  font-size: 0.9em;
-  background: var(--clr-neutral-900);
   color: var(--clr-accent-400);
+  background: var(--clr-neutral-900);
+}
+
+.small-btn {
+  font-size: 0.9em;
   text-transform: uppercase;
   display: inline;
   letter-spacing: 1px;
