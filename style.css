@@ -12,6 +12,12 @@
 
   --ff-primary: "PT Sans", sans-serif;
 
+  --fs-700: 2.25rem;
+  --fs-600: 1.5rem;
+  --fs-500: 1.25rem;
+  --fs-400: 1.125rem;
+  --fs-300: 0.9375rem;
+
   --fw-700: 700;
   --fw-400: 400;
 
@@ -148,8 +154,8 @@ header {
 @media (min-width: 40em) {
   header {
     position: sticky;
+    z-index: 1000;
     top: 0;
-    z-index: 1;
   }
 }
 
