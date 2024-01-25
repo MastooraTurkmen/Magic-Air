@@ -126,6 +126,7 @@ h1 {
   text-transform: uppercase;
   display: inline;
   letter-spacing: 1px;
+  padding: 0 .4em;
 }
 
 h1 span {
