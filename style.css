@@ -124,6 +124,8 @@ h1 {
   background: var(--clr-neutral-900);
   color: var(--clr-accent-400);
   text-transform: uppercase;
+  display: inline;
+  letter-spacing: 1px;
 }
 
 h1 span {
