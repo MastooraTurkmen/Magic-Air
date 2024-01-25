@@ -120,9 +120,10 @@ body {
 
 h1 {
   font-weight: 400;
-  font-size: 0.9375em;
+  font-size: 0.9em;
   background: var(--clr-neutral-900);
   color: var(--clr-accent-400);
+  text-transform: uppercase;
 }
 
 h1 span {
