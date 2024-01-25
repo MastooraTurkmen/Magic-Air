@@ -121,6 +121,7 @@ body {
 h1 {
   font-weight: 400;
   font-size: 0.9375em;
+  background: var(--clr-neutral-900);
 }
 
 h1 span {
