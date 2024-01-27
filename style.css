@@ -144,6 +144,17 @@ img {
   color: var(--clr-accent-400);
 }
 
+.join-now li::before {
+  content: "";
+  display: block;
+  width: 5rem;
+  height: 5rem;
+  background: var(--clr-accent-400);
+  position: absolute;
+  z-index: -1;
+  transform: translate(-0.5rem, -0.5rem);
+}
+
 /* general styling */
 
 body {
@@ -268,17 +279,6 @@ section {
   .hero {
     padding: 0;
   }
-}
-
-.join-now li::before {
-  content: "";
-  display: block;
-  width: 5rem;
-  height: 5rem;
-  background: var(--clr-accent-400);
-  position: absolute;
-  z-index: -1;
-  transform: translate(-0.5rem, -0.5rem);
 }
 
 .cta {
