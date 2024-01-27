@@ -148,12 +148,16 @@ img {
   position: relative;
 }
 
+.corner-square:nth-of-type(2n) {
+  --accent: var(--clr-neutral-900)
+}
+
 .corner-square::before {
   content: "";
   display: block;
   width: 5rem;
   height: 5rem;
-  background: var(--clr-accent-400);
+  background: var(--accent, var(--clr-accent-400));
   position: absolute;
   z-index: -1;
   left: -0.5em;
