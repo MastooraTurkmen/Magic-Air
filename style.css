@@ -136,7 +136,7 @@ img {
 .bg-green {
   --fg: var(--clr-neutral-900);
   --bg: var(--clr-accent-400);
-  --accent: var(--clr-neutral-400);
+  --accent: var(--clr-neutral-100);
 }
 
 
@@ -295,4 +295,10 @@ section {
 
 .testimonials {
   text-align: center;
+}
+
+.testimonial .name {
+  font-weight: var(--fw-700);
+  margin-top: 4rem;
+  color: var(--accent);
 }
