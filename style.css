@@ -139,9 +139,15 @@ img {
   --accent: var(--clr-neutral-100);
 }
 
+.bg-light {
+  --fg: var(--clr-neutral-900);
+  --bg: var(--clr-neutral-100);
+  --accent: var(--clr-accent-400);
+}
+
 
 .text-accent {
-  color: var(--clr-accent-400);
+  color: var(--accent, var(--clr-accent-400));
 }
 
 .corner-square {
@@ -291,9 +297,19 @@ section {
 }
 
 .cta {
-  background-image: url(assets/cta-bg.jpg);
+  background-blend-mode: multiply;
   background-size: cover;
   text-align: center;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.cta.bg-green {
+  background-image: url(assets/cta-bg-1.jpg);
+}
+
+.cta.bg-light {
+  background-image: url(assets/cta-bg-2.jpg);
 }
 
 .bg-green {
