@@ -201,8 +201,8 @@ a {
   font-size: 1.125rem;
   color: inherit;
   padding: 0.75em 1.5em;
-  background-color: var(--clr-accent-400);
-  color: var(--clr-neutral-900);
+  background-color: var(--accent, var(--clr-accent-400));
+  color: var(--fg, var(--clr-neutral-900));
 }
 
 /* navigation */
