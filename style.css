@@ -297,6 +297,10 @@ section {
   text-align: center;
 }
 
+.testimonial p:first-of-type {
+  font-style: italic;
+}
+
 .testimonial .name {
   font-weight: var(--fw-700);
   margin-top: 4rem;
