@@ -144,7 +144,11 @@ img {
   color: var(--clr-accent-400);
 }
 
-.join-now li::before {
+.corner-square {
+  position: relative;
+}
+
+.corner-square::before {
   content: "";
   display: block;
   width: 5rem;
@@ -152,7 +156,8 @@ img {
   background: var(--clr-accent-400);
   position: absolute;
   z-index: -1;
-  transform: translate(-0.5rem, -0.5rem);
+  left: -0.5em;
+  top: -0.5em;
 }
 
 /* general styling */
