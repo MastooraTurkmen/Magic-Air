@@ -104,7 +104,7 @@ img {
   }
 
   .split>*+* {
-    margin: 0 0 0 var(--spacer);
+    margin: 0 0 0 var(--gap, var(--spacer));
   }
 }
 
@@ -256,6 +256,10 @@ section {
 
 /* individual sections */
 
+.hero {
+  --gap: 3rem
+}
+
 .hero img {
   transform: translateY(2em);
 }
@@ -295,6 +299,7 @@ section {
 
 .testimonials {
   text-align: center;
+  --gap: 4rem
 }
 
 .testimonial p:first-of-type {
