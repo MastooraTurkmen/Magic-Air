@@ -116,10 +116,27 @@ img {
   box-shadow: var(--box-shadow);
 }
 
-.bg-dark {
+/* .bg-dark {
   color: var(--clr-neutral-100);
   background: var(--clr-neutral-900);
+} */
+
+
+[class*="bg-"] {
+  color: var(--fg, red);
+  background-color: var(--bg, red);
 }
+
+.bg-dark {
+  --fg: var(--clr-neutral-100);
+  --bg: var(--clr-neutral-900);
+}
+
+.bg-green {
+  --fg: var(--clr-neutral-900);
+  --bg: var(--clr-accent-400);
+}
+
 
 .text-accent {
   color: var(--clr-accent-400);
