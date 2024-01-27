@@ -136,7 +136,7 @@ img {
 .bg-green {
   --fg: var(--clr-neutral-900);
   --bg: var(--clr-accent-400);
-  --accent: var(--clr-netural-400);
+  --accent: var(--clr-neutral-400);
 }
 
 
@@ -188,7 +188,7 @@ a {
   font-size: var(--fs-300);
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  background-color: var(--fg, var(--clr-neutral-900));
+  background: var(--fg, var(--clr-neutral-900));
   color: var(--accent, var(--clr-accent-400));
   display: inline-block;
   padding: 0.25em 0.5em;
@@ -290,4 +290,9 @@ section {
 
 .testimonial {
   padding: 1.8em;
+  text-align: left;
+}
+
+.testimonials {
+  text-align: center;
 }
