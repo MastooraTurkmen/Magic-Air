@@ -2,12 +2,12 @@
 
 A really cool CSS and HTML website.
 
-![Screenshot](./screenshots/image.png)
+![Screenshot](./screenshots/screenshot-header.png)
 
-![Alt text](image.png)
+![Screenshot](./screenshots/screenshot-magic.png)
 
-![Alt text](image-1.png)
+![Screenshot](image-1.png)
 
-![Alt text](image-2.png) 
+![Screenshot](image-2.png)
 
-![Alt text](image-3.png)
+![Screenshot](image-3.png)
