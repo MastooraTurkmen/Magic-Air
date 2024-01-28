@@ -3,3 +3,7 @@
 A really cool CSS and HTML website.
 
 ![Screenshot](./screenshots/image.png)
+
+![Alt text](image.png)
+
+![Alt text](image-1.png)
