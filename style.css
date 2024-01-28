@@ -306,6 +306,8 @@ section {
 
 .cta.bg-green {
   background-image: url(assets/cta-bg-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .cta.bg-light {
